@@ -11,11 +11,11 @@ const About = () => {
                         <div className="absolute -inset-1 bg-gradient-to-r from-rose-300/10 to-rose-400/10 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                         <div className="relative backdrop-blur-md bg-gradient-to-br from-white/10 to-white/5 p-8 rounded-3xl border border-white/20 shadow-2xl">
                             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                                <span className="bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent drop-shadow-lg">
+                                <span className="bg-gradient-to-r from-rose-700/30 to-rose-900/30 hover:from-rose-600/30 hover:to-rose-400/20 bg-clip-text text-transparent drop-shadow-lg">
                                     About Me
                                 </span>
                             </h2>
-                            <div className="w-24 h-1 bg-gradient-to-r from-rose-400 to-rose-600 mx-auto mb-8"></div>
+                            <div className="w-24 h-1 bg-gradient-to-r from-rose-500/20 to-rose-900/30 hover:from-rose-900/30 hover:to-rose-500/20 mx-auto mb-8"></div>
                             <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
                                 Transforming digital landscapes through strategic innovation and measurable results for over a decade.
                             </p>
@@ -58,7 +58,7 @@ const About = () => {
                     </div>
                                         <div className="space-y-8">
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r mx-auto from-rose-300/10 to-rose-400/10 rounded-2xl blur-lg opacity-75"></div>
+                            <div className="absolute -inset-1 bg-gradient-to-r from-rose-300/10 to-rose-400/10 rounded-2xl blur-lg opacity-75"></div>
                             <div className="relative backdrop-blur-md bg-white/5 p-8 rounded-2xl border border-white/10 shadow-xl">
                             <img src="/about.png" alt="girl walking dog" />
                             </div>

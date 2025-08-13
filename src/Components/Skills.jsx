@@ -27,16 +27,14 @@ const Skills = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-12">
                     <div className="relative group inline-block">
-                        <div className="absolute -inset-1 bg-gradient-to-r from-rose-400/20 via-rose-500/10 to-rose-600/20 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+                        <div className="absolute -inset-1 bg-gradient-to-r from-rose-300/10 to-rose-400/10 rounded-3xl blur-xl opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                         <div className="relative backdrop-blur-md bg-gradient-to-br from-white/10 to-white/5 p-8 rounded-3xl border border-white/20 shadow-2xl">
                             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
                                 <span className="bg-gradient-to-r from-rose-700/30 to-rose-900/30 hover:from-rose-600/30 hover:to-rose-400/20 bg-clip-text text-transparent drop-shadow-lg">
                                     My Skills
                                 </span>
                             </h2>
-                            <p className="text-rose-100 text-lg drop-shadow-md">
-                                Technologies I work with and love
-                            </p>
+                            <div className="w-24 h-1 bg-gradient-to-r from-rose-500/20 to-rose-900/30 hover:from-rose-900/30 hover:to-rose-500/20 mx-auto mb-8"></div>
                         </div>
                     </div>
                 </div>
@@ -60,7 +58,7 @@ const Skills = () => {
                                             <span className="text-2xl group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">
                                                 {skill.icon}
                                             </span>
-                                            <span className="text-white font-semibold text-lg group-hover:text-rose-100 transition-colors duration-300 drop-shadow-md">
+                                            <span className="text-rose-100 font-semibold text-lg group-hover:text-rose-100 transition-colors duration-300 drop-shadow-md">
                                                 {skill.name}
                                             </span>
                                         </div>
@@ -86,12 +84,12 @@ const Skills = () => {
                                     className="relative group mx-6"
                                 >
                                     <div className="absolute -inset-1 bg-gradient-to-r from-rose-400/30 to-rose-600/30 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition duration-500"></div>
-                                    <div className="relative backdrop-blur-md bg-gradient-to-r from-rose-900/20 to-rose-800/20 px-6 py-4 rounded-xl border border-rose-500/30 hover:border-rose-400/70 hover:from-rose-800/30 hover:to-rose-700/30 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/30 transition-all duration-300 cursor-pointer shadow-lg">
+                                    <div className="relative backdrop-blur-md bg-gradient-to-br from-rose-900/30 to-rose-800/20 px-6 py-4 rounded-xl border border-rose-500/30 hover:border-rose-400/70 hover:from-rose-800/30 hover:to-rose-700/30 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/30 transition-all duration-300 cursor-pointer shadow-lg">
                                         <div className="flex items-center gap-3 whitespace-nowrap">
                                             <span className="text-2xl group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">
                                                 {skill.icon}
                                             </span>
-                                            <span className="text-rose-100 font-semibold text-lg group-hover:text-white transition-colors duration-300 drop-shadow-md">
+                                            <span className="text-rose-100 font-semibold text-lg group-hover:text-rose-100 transition-colors duration-300 drop-shadow-md">
                                                 {skill.name}
                                             </span>
                                         </div>
