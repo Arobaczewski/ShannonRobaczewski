@@ -40,7 +40,7 @@ const Skills = () => {
                 </div>
                 <div className="relative overflow-hidden">
                     <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30 rounded-2xl pointer-events-none"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-rose-400/20 to-rose-400/10 rounded-2xl pointer-events-none"></div>
                         <Marquee
                             gradient={false}           
                             speed={50}                 
@@ -53,7 +53,7 @@ const Skills = () => {
                                     className="relative group mx-6" 
                                 >
                                     <div className="absolute -inset-1 bg-gradient-to-r from-rose-400/20 to-rose-600/20 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition duration-500"></div>
-                                    <div className="relative backdrop-blur-md bg-white/10 px-6 py-4 rounded-xl border border-white/20 hover:border-rose-400/50 hover:bg-white/15 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/20 transition-all duration-300 cursor-pointer shadow-lg">
+                                    <div className="relative backdrop-blur-md bg-gradient-to-r from-rose-400/30 to-rose-600/30 px-6 py-4 rounded-xl border border-white/20 hover:border-rose-400/50 hover:bg-white/15 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/20 transition-all duration-300 cursor-pointer shadow-lg">
                                         <div className="flex items-center gap-3 whitespace-nowrap">
                                             <span className="text-2xl group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">
                                                 {skill.icon}
@@ -70,7 +70,7 @@ const Skills = () => {
                 </div>
                 <div className="relative overflow-hidden mt-8">
                     <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-l from-black/30 via-transparent to-black/30 rounded-2xl pointer-events-none"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-rose-400/10 to-rose-400/20 rounded-2xl pointer-events-none"></div>
                         <Marquee
                             gradient={false}
                             speed={40}                 
@@ -84,7 +84,7 @@ const Skills = () => {
                                     className="relative group mx-6"
                                 >
                                     <div className="absolute -inset-1 bg-gradient-to-r from-rose-400/30 to-rose-600/30 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition duration-500"></div>
-                                    <div className="relative backdrop-blur-md bg-gradient-to-br from-rose-900/30 to-rose-800/20 px-6 py-4 rounded-xl border border-rose-500/30 hover:border-rose-400/70 hover:from-rose-800/30 hover:to-rose-700/30 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/30 transition-all duration-300 cursor-pointer shadow-lg">
+                                    <div className="relative backdrop-blur-md bg-gradient-to-r from-rose-400/30 to-rose-600/30 px-6 py-4 rounded-xl border border-white/20 hover:border-rose-400/50 hover:bg-white/15 hover:scale-110 hover:shadow-xl hover:shadow-rose-400/20 transition-all duration-300 cursor-pointer shadow-lg">
                                         <div className="flex items-center gap-3 whitespace-nowrap">
                                             <span className="text-2xl group-hover:scale-125 transition-transform duration-300 drop-shadow-lg">
                                                 {skill.icon}
