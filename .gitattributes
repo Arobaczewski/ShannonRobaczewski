@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+=======
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 3ef094d3fadf037962d83b3ec7476a61a1becb67
